@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&display=swap');
+
+body{
+    font-family: 'Merriweather', serif;
+}
+section{
+    margin-bottom: 50px;
+}
+
+/*---------
+1st Section
+-----------*/
+.first-portion{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+   
+   
+}
+
+.misssion-intro{
+    width: 50%;
+}
+
+.left-border{
+    border-left: 4px solid rgb(255, 60, 0);
+    padding-left:10px;
+}
+h1{
+    font-size: 3em;
+    
+}
+.color{
+    color: #ffa600e3;
+}
+
+.misssion-intro p{
+    padding-right: 50px; 
+     
+}
+
+.button{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 8px;
+    margin: 40px 0;
+    
+   
+}
+
+.down{
+    margin-top: 35px;
+    font-size: 12px;
+}
+.picture{
+    width: 40%;
+}
+
+.picture img{
+    width:80%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*---------
+2nd Section
+-----------*/
+
+h2{
+    text-align: center;
+}
+
+.details{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.mission, .vission, .goal{
+    width: 30%;
+    
+}
+
+.mission{
+    background-color: rgba(214, 237, 245, 0.801);
+    border-radius: 10px;
+}
+
+.vission{
+    background-color: linen;
+    border-radius: 10px;
+}
+.goal{
+    background-color:rgb(248, 207, 202);
+    border-radius: 10px;
+}
+ .image img{
+    width: 50%;
+}
+
+.detail-info{
+    padding: 10px 15px;
+}
+
+
+/*---------
+3rd Section
+-----------*/
+
+.third-portion{
+    
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(../images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:left top;
+    background-size: 30px;
+    
+    
+    }
+
+.code-develop{
+    padding: 0 15px;
+    text-align: justify;
+}
+
+/*---------
+4th Section
+-----------*/
+
+.forth-portion{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    
+   height: 450px;
+   
+}
+
+.banner-1{
+    background-image: url(../images/shapes/shape-1.png);
+    background-size: 10% auto;
+    background-repeat: no-repeat;
+    
+    background-position: 80% 100%;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
